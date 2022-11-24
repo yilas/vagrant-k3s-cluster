@@ -1,6 +1,7 @@
 MASTER_COUNT = 3
 NODE_COUNT = 3
-IMAGE = "ubuntu/focal64"
+#IMAGE = "ubuntu/focal64"
+IMAGE = "generic/ubuntu2204"
 
 Vagrant.configure("2") do |config|
 
